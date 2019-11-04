@@ -1,21 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-//import Card from './Card';
-import { robots } from './robots';
 import 'tachyons';
-import CardList from './CardList.js';
+import App from './App.js';
 import * as serviceWorker from './serviceWorker';
 
-ReactDOM.render(
-    <div>
-        <CardList robots={robots}/>    
-    </div>,
-
-
-
-
-document.getElementById('root'));
+ReactDOM.render(<App /> ,document.getElementById('root'));
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
 // Learn more about service workers: https://bit.ly/CRA-PWA
