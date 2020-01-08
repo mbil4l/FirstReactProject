@@ -8,7 +8,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-h1#title {
+h1.title {
   font-family: 'SEGA LOGO FONT';
   color: rgba(0,128,128,1);
 }
