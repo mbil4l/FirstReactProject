@@ -31,9 +31,9 @@ class App extends React.Component {
     <div className='tc'>
         <h1 className='title grow shadow-5 f-headline'> Robots </h1>
         <SearchBar searchChange={this.OnSearchChange}/>
-        <scroll>
+        <Scroll>
             <CardList robots={filteredRobots}/>
-        </scroll>
+        </Scroll>
     </div>)  
 }}
 
