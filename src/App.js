@@ -6,7 +6,7 @@ import SearchBar from './SearchBar';
 class App extends React.Component {
     
     constructor() {
-        super()
+        super();
         this.state = {
             robots: robots,
             searchfield: '',
@@ -27,7 +27,7 @@ class App extends React.Component {
     
     return (
     <div className='tc'>
-        <h1> Robots </h1>
+        <h1 id='title' className='grow shadow-5 f-headline'> Robots </h1>
         <SearchBar searchChange={this.OnSearchChange}/>
         <CardList robots={filteredRobots}/>
     </div>)  
